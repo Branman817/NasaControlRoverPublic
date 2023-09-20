@@ -1,6 +1,7 @@
 Coding Test, Problem 1
 
 NasaControlRovers
+
 Brandon Dozier
 
 The NasaControlRovers project defines 3 classes, Rover, Position and Grid.  The program asks the user
@@ -13,6 +14,7 @@ After iterating through all the lines of input, the program prints out the curre
 of each Rover class in the list in order.
 
 The code accounts for the following assumptions:
+
 That there will be invalid input given for the Grid or Rover objects.  For Rovers given invalid input, the program
 will output that invalid input was given for that rover class.
 
