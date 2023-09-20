@@ -13,11 +13,11 @@
 
         public bool isOutOfBounds(Position coordinates)
         {
-            if(coordinates._xAxis > _xDimension || coordinates._yAxis > _yDimension)
+            if(coordinates.XAxis > _xDimension || coordinates.YAxis > _yDimension)
             {
                 return true;
             }
-            else if(coordinates._xAxis < 0 || coordinates._yAxis < 0)
+            else if(coordinates.XAxis < 0 || coordinates.YAxis < 0)
             {
                 return true;
             }
