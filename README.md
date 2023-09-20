@@ -15,10 +15,10 @@ of each Rover class in the list in order.
 
 The code accounts for the following assumptions:
 
-That there will be invalid input given for the Grid or Rover objects.  For Rovers given invalid input, the program
+- That there will be invalid input given for the Grid or Rover objects.  For Rovers given invalid input, the program
 will output that invalid input was given for that rover class.
 
-That a Rover could go out of bounds of the grid.  In this scenario, it will output that the rover had stopped
+- That a Rover could go out of bounds of the grid.  In this scenario, it will output that the rover had stopped
 at a specific position and direction before going out of bounds and that it had
 
 Included in the solution is a Unit Test project, using the XUnit framework, to verify the functionality
