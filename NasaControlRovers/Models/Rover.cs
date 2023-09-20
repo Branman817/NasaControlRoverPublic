@@ -47,13 +47,13 @@ namespace NasaControlRovers.Models
                         {
                             return;
                         }
-                        var previousPosition = new Position(_currentPosition._xAxis, _currentPosition._yAxis, _currentPosition._direction);
+                        var previousPosition = new Position(_currentPosition.XAxis, _currentPosition.YAxis, _currentPosition.Direction);
                         _currentPosition.UpdatePosition(movement);
                         if (_grid.isOutOfBounds(_currentPosition))
                         {
                             SetIsOutOfBounds(true);
-                            _currentPosition._xAxis = previousPosition._xAxis;
-                            _currentPosition._yAxis = previousPosition._yAxis;
+                            _currentPosition.XAxis = previousPosition.XAxis;
+                            _currentPosition.YAxis = previousPosition.YAxis;
                             return;
                         }
                     }
